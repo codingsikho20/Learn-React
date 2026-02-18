@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 *{
   margin: 0;
   padding: 0;
@@ -7,5 +9,39 @@
 html,body{
   height: 100%;
   width: 100%;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.navbar{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(84, 200, 90);
+}
+
+.leftdiv{
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+span{
+  font-size: 30px;
+  font-weight: bold;
+  color: #740A03;
+}
+
+.rightdiv ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 50px;
 }
 
